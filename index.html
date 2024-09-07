@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1>Hi, I'm <span>Shalini Rajendiran</span></h1>
+            <p>Full Stack Developer | Web Designer | Coder</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm a passionate web developer with experience in HTML, CSS, JavaScript, React, and Node.js. I love creating beautiful, responsive websites and web apps.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <h3>To-Do List</h3>
+                <p>A To-Do List App helps users organize tasks by allowing them to add, edit, and delete tasks. Users can track their daily activities and mark tasks as complete to increase productivity and manage their time efficiently.</p>
+            </div>
+            <div class="project">
+                <h3>Quiz App</h3>
+                <p>A Quiz App is an interactive application where users can test their knowledge on various topics. It presents multiple-choice questions, tracks correct answers, and provides a final score at the end, offering users a fun and educational way to learn.
+
+                </p>
+            </div>
+            <div class="project">
+                <h3>Meal Recipe App</h3>
+                <p>A Meal Recipe App provides users with a collection of recipes, ingredients, and cooking instructions for various dishes. It helps users explore and prepare meals easily, offering a convenient way to discover new recipes and manage cooking steps.
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
